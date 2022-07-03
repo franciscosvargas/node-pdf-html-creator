@@ -1,4 +1,4 @@
-var fs = require('fs');
+const fs = require('fs');
 const puppeteer= require('puppeteer')
 const html = fs.readFileSync('./templates/RELATORIO_RECEITA_MENSAL.hbs', 'utf8');
 
@@ -25,7 +25,7 @@ async function render() {
   await page.goto(`data: text/html, ${template}`, { 
     waitUntil: "networkidle0" 
   });
-  
+
   await page.setContent(template);
 	await page.addStyleTag({ path: `${__dirname}/templates/common-styles.css`});
 
