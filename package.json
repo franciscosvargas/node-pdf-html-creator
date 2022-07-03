@@ -1,0 +1,16 @@
+{
+  "name": "node-generate-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon start index.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "puppeteer": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

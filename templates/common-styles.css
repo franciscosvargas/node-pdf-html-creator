@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Public+Sans:wght@700&display=swap'); */
+
+html {
+  height: 100%;
+}
+
+*, body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #008037;
+  align-items: center;
+}
+
+#subtitle {
+  padding: 5px 10px;
+  min-width: 0px;
+  max-width: 500px;
+  height: 30px;
+  background-color: #99d9d9;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 110px;
+  font-family: 'DM Sans', sans-serif;
+  color: #004aad;
+
+}
+
+
+#title {
+  height: 100px;
+  margin-top: 125px;
+  width: 100%;
+  background-color: #f5e9db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #008037;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 19px;
+}
+
+img {
+  position: absolute;
+  width: 180px;
+  top: 25px;
+}
